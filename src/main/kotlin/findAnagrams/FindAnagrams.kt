@@ -1,5 +1,6 @@
 package findAnagrams
 
+//https://leetcode.com/problems/find-all-anagrams-in-a-string/
 class FindAnagrams {
 
     fun findAnagrams(s: String, p: String): List<Int> {
