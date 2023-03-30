@@ -1,5 +1,6 @@
 import singleNumber.SingleNumber
+import summaryRanges.SummaryRanges
 
 fun main(args: Array<String>) {
-    print(SingleNumber().singleNumber(intArrayOf(1,2,2,1,3)))
+    println(SummaryRanges().summaryRanges(intArrayOf(1,2,5,6,9,11)))
 }
