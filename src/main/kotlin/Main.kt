@@ -1,6 +1,10 @@
-import singleNumber.SingleNumber
-import summaryRanges.SummaryRanges
-
 fun main(args: Array<String>) {
-    println(SummaryRanges().summaryRanges(intArrayOf(1,2,5,6,9,11)))
+    intArrayOf(1, 2, 5, 6, 9, 11).reduceIndexed { index, acc, i ->
+        acc + i
+    }
+}
+
+class TreeNode(var entity: Int) {
+    var left: TreeNode? = null
+    var right: TreeNode? = null
 }
