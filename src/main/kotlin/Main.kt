@@ -1,10 +1,7 @@
+import longestMonotonousSubsequence.LongestMonotonousSubsequence
+
 fun main(args: Array<String>) {
-    intArrayOf(1, 2, 5, 6, 9, 11).reduceIndexed { index, acc, i ->
-        acc + i
-    }
+
+    println(LongestMonotonousSubsequence().findLongestSubsequence(intArrayOf(4,5,6,7,3,2,-3,-4,-5,-4,-3,-2,-1,5,10,15,16,25,30,40,50,60,-6,-7,)))
 }
 
-class TreeNode(var entity: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
-}
